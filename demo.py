@@ -2,6 +2,12 @@
 
 # This script demonstrate how you can run linux commands in python
 import time
+import os
+### Change Directory
+os.chdir('..')
+
+###
+# Run Commands
 
 # use subprocess module instead of os because
 # 1. os module pass the full string
